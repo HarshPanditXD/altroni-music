@@ -34,14 +34,14 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/d5ea5c258b4d8842f834f.jpg",
+        photo=f"https://telegra.ph/file/f819b0e13c279ff09e69b.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 𝐻𝑒𝑙𝑙𝑜 𝐼'𝑚 𝑆𝑢𝑝𝑒𝑟 𝐹𝑎𝑠𝑡 𝑀𝑢𝑠𝑖𝑐 𝑃𝑙𝑎𝑦𝑒𝑟
 𝐵𝑜𝑡 𝑓𝑜𝑟 𝑇𝑒𝑙𝑒𝑔𝑟𝑎𝑚 𝐺𝑟𝑜𝑢𝑝𝑠 ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ⚡𝐶ℎ𝑎𝑛𝑛𝑒𝑙⚡ : [𝐴𝑙𝑡𝑟𝑜𝑛𝑖𝑥 𝐵𝑜𝑡𝑠](https://t.me/AltronixBots)
-┣★ ⚡𝑆𝑢𝑝𝑝𝑜𝑟𝑡⚡ : [𝐴𝑙𝑡𝑟𝑜𝑛𝑖𝑥 𝑆𝑢𝑝𝑝𝑜𝑟𝑡](https://t.me/AltronixSupport)
-┣★ ⚡𝑂𝑤𝑛𝑒𝑟⚡   : [𝑇𝑜𝑥𝑖𝑐 𝐵𝑜𝑦](https://t.me/Itz_ToxicBoy_xD)
+┣★ ⚡𝐵𝑎𝑑𝑂𝑤𝑛𝑒𝑟⚡ : [𝐿𝑜𝑔 𝑂𝑢𝑡](https://t.me/log_afk)
+┣★ ⚡ 𝑆𝑢𝑝𝑝𝑜𝑟𝑡 ⚡ : [𝐶𝒉𝑎𝑡 𝑆𝑢𝑝𝑝𝑜𝑟𝑡](https://t.me/UNIQUE_SOCIETY)
+┣★ ⚡𝐶𝒉𝑎𝑡𝑍𝑜𝑛𝑒⚡ : [𝑪𝒉𝒂𝒕 𝑮𝒓𝒐𝒖𝒑](https://t.me/ALL_DEAR_COMRADE)
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
@@ -56,16 +56,16 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "Altronix"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "❀Furious❀"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/d5ea5c258b4d8842f834f.jpg",
+        photo=f"https://telegra.ph/file/f819b0e13c279ff09e69b.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡", url=f"https://t.me/AltronixSupport")
+                        "⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡", url=f"https://t.me/UNIQUE_SOCIETY")
                 ]
             ]
         ),
@@ -75,13 +75,13 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro([".channel","toxic", "#Channel", "@Channel", "/Channel", "Channel"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f3f2190d990196576a9c0.jpg",
+        photo=f"https://telegra.ph/file/f819b0e13c279ff09e69b.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡", url=f"https://t.me/AltronixBots")
+                        "⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡", url=f"https://t.me/ALL_DEAR_COMRADE")
                 ]
             ]
         ),
