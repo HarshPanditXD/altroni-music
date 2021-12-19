@@ -34,12 +34,6 @@
     <a href="https://t.me/botfather"> Telegram Bot Token </a> |
 </p>
 
-<h2 align="center">
-   Stay Up-to-Date
-</h2>
-
-<p align="center"><img src="https://github.com/D3stroyer-xD/AltronixMusicBot/blob/main/Utils/star.gif" alt="D3stroyer-xD Github" width="1000px" /></p>
-
 
 <h2 align="center">
     Deployment Methods
