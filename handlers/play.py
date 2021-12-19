@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: 𝐒𝐮𝐦𝐢𝐭 𝐘𝐚𝐝𝐚𝐯",
+        f"Powered By: Harsh Pandit",
         (255, 255, 255),
         font=font,
     )
@@ -120,7 +120,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "AltronixMusicBot"
+        user.first_name = "FURIOUSMUSICBOT"
     usar = user
     wew = usar.id
     try:
@@ -186,7 +186,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/AltronixSupport")
+                            url=f"https://t.me/UNIQUE_SOCIETY")
 
                 ]
             ]
@@ -225,7 +225,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/AltronixSupport")
+                            url=f"https://t.me/UNIQUE_SOCIETY")
 
                 ]
             ]
@@ -233,7 +233,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/d5ea5c258b4d8842f834f.jpg"
+            thumb_name = "https://telegra.ph/file/f819b0e13c279ff09e69b.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -241,7 +241,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/AltronixSupport")
+                            url=f"https://t.me/UNIQUE_SOCIETY")
 
                 ]
             ]
@@ -296,7 +296,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                            url=f"https://t.me/AltronixSupport")
+                            url=f"https://t.me/UNIQUE_SOCIETY")
 
                 ]
             ]
@@ -317,7 +317,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**⚡𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢ \n α∂∂є∂ ѕσηg\n αт ρσѕιтιση  » `{}` 🎶 ...**".format(position),
+            caption="**⚡𝐅𝐮𝐫𝐢𝐨𝐮𝐬 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢ \n α∂∂є∂ ѕσηg\n αт ρσѕιтιση  » `{}` 🎶 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -333,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**⚡𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω ρℓαуιηg ...**".format(),
+            caption="**⚡𝐅𝐮𝐫𝐢𝐨𝐮𝐬 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω ρℓαуιηg ...**".format(),
         )
 
     os.remove("final.png")
@@ -347,8 +347,8 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/d5ea5c258b4d8842f834f.jpg", 
-                             caption="**⚡𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω ▶️ ραυѕє∂ ...**"
+                             photo="https://telegra.ph/file/f819b0e13c279ff09e69b.jpg", 
+                             caption="**⚡𝐅𝐮𝐫𝐢𝐨𝐮𝐬 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω ▶️ ραυѕє∂ ...**"
     )
 
 
@@ -358,8 +358,8 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/d5ea5c258b4d8842f834f.jpg", 
-                             caption="**⚡𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω ⏸ ρℓαуιηg ...**"
+                             photo="https://telegra.ph/file/f819b0e13c279ff09e69b.jpg", 
+                             caption="**⚡𝐅𝐮𝐫𝐢𝐨𝐮𝐬 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω ⏸ ρℓαуιηg ...**"
     )
 
 
@@ -374,7 +374,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALL.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALL:
-        await message.reply_text("**⚡𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢ \n ησтнιηg ρℓαуιηg ...**")
+        await message.reply_text("**⚡𝐅𝐮𝐫𝐢𝐨𝐮𝐬 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢ \n ησтнιηg ρℓαуιηg ...**")
     else:
         callsmusic.queues.task_done(chat_id)
 
@@ -392,8 +392,8 @@ async def skip(_, message: Message):
                 )
 
     await message.reply_photo(
-                             photo="https://telegra.ph/file/d5ea5c258b4d8842f834f.jpg", 
-                             caption=f'**⚡𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢ \n ησω ⏩ѕкιρρє∂ ...**'
+                             photo="https://telegra.ph/file/f819b0e13c279ff09e69b.jpg", 
+                             caption=f'**⚡𝐅𝐮𝐫𝐢𝐨𝐮𝐬 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢ \n ησω ⏩ѕкιρρє∂ ...**'
    ) 
 
 
@@ -408,8 +408,8 @@ async def stop(_, message: Message):
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/d5ea5c258b4d8842f834f.jpg", 
-                             caption="**⚡𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω ❌ ѕтσρρє∂ ...**"
+                             photo="https://telegra.ph/file/f819b0e13c279ff09e69b.jpg", 
+                             caption="**⚡𝐅𝐮𝐫𝐢𝐨𝐮𝐬 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω ❌ ѕтσρρє∂ ...**"
     )
 
 
@@ -426,6 +426,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/d5ea5c258b4d8842f834f.jpg",
-                              caption="**⚡𝐀𝐥𝐭𝐫𝐨𝐧𝐢𝐱 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω яєℓσα∂є∂ ...**"
+                              photo="https://telegra.ph/file/f819b0e13c279ff09e69b.jpg",
+                              caption="**⚡𝐅𝐮𝐫𝐢𝐨𝐮𝐬 𝐌𝐮𝐬𝐢𝐜⚡ мυѕι¢\n ησω яєℓσα∂є∂ ...**"
     )
